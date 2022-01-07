@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1280px;
+}
+
+.holdAllHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.comName {
+  font-family: Poppins;
+  color: #fa3d3d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+}
+.comName:hover {
+  color: #fa3d3d;
+}
+
+.holdSmallCircle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.smallCircle {
+  height: 10px;
+  width: 10px;
+  background-color: #fa3d3d;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.holdNav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.holdNav2 {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-direction: column;
+  margin-left: -45px;
+  text-align: left;
+}
+.disStlye {
+  display: none;
+}
+.disStlye2 {
+  display: block;
+}
+.barMe {
+  font-size: 22px;
+  color: #fa3d3d;
+  cursor: pointer;
+}
+.holdBar {
+  display: none;
+}
+li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 16px;
+  color: black;
+  text-transform: capitalize;
+}
+.list a {
+  color: black;
+  text-decoration: none;
+}
+.list a:hover {
+  color: black;
+}
+
+.holdRowG {
+  display: flex;
+}
+
+.rowG {
+  transform: rotate(90deg);
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lists a {
+  padding: 10px 25px;
+  background-color: #fa3d3d;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #fa3d3d;
+  text-decoration: none;
+}
+
+.lists a:hover {
+  color: #fa3d3d;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.subChild {
+  text-align: center;
+  list-style-type: none;
+  margin-left: -45px;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+}
+
+.subChild li {
+  margin-left: -31px;
+  padding: 15px 30px;
+}
+.subChild {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+}
+
+.subChild li a:hover {
+  color: gray;
+  transition: 0.5s;
+}
+
+.listDrop:hover .subChild {
+  display: block;
+}

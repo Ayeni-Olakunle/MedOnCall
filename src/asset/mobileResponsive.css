@@ -1,0 +1,150 @@
+@media only screen and (max-width: 600px) {
+  .head {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  butin {
+    padding: 7px 30px;
+    border: 1px solid #fa3d3d;
+    background-color: #fa3d3d;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  .holdIcon {
+    display: none;
+  }
+  .holdButton {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .head {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .butin {
+    margin-bottom: 20px;
+  }
+  .BigBox {
+    display: none;
+  }
+  .smallBox {
+    display: none;
+  }
+  .theirLayout {
+    padding: 17px;
+  }
+  .videoIcone3 {
+    display: none;
+  }
+  .secondContin {
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .mobilePhone {
+    display: none;
+  }
+  .secondContin2 {
+    margin-top: 40px;
+  }
+  .more {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .layoutThree {
+    margin: 0;
+  }
+  .pickService {
+    width: 100%;
+  }
+  .mobilePhone2 {
+    display: none;
+  }
+  .getBetteeHead {
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .holdFlexible {
+    display: grid;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .flexible {
+    width: 100%;
+    border: 1.9px solid lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .holdThreeIm {
+    display: none;
+  }
+  .holdFlexible {
+    display: grid;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .holdLearn {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+  .readMore {
+    margin-top: -400px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 1.5;
+    position: absolute;
+    width: 96%;
+  }
+  .holdDrug {
+    margin-bottom: 45px;
+  }
+  .stayAhead {
+    display: none;
+  }
+  .holdClipPathe {
+    display: none;
+  }
+  .rowMe {
+    margin-bottom: 0px;
+  }
+  .storeHead {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .holdAppleNPlay {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .playStore {
+    margin-left: 0px;
+  }
+  .wer {
+    margin-top: 0px;
+  }
+  .sed {
+    text-align: center;
+  }
+  .holdNav {
+    display: none;
+  }
+  .holdBar {
+    display: block;
+    text-align: right;
+  }
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.footerRow {
+  background-color: #181f23;
+  padding: 50px 60px 10px 60px;
+  color: white;
+}
+
+.comName {
+  font-family: Poppins;
+  color: #fa3d3d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+}
+.comName:hover {
+  color: #fa3d3d;
+}
+
+.holdSmallCircle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.smallCircle {
+  height: 10px;
+  width: 10px;
+  background-color: #fa3d3d;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.holdMedCall {
+  width: 100%;
+  text-align: center;
+}
+
+.FooterMedCallText {
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+  width: fit-content;
+}
+
+.footerHeader {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.listNow {
+  color: white;
+  list-style-type: none;
+  margin-left: -5px;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.holdSmallCol {
+  margin: 25px 0;
+}
+
+.redMe {
+  color: #fa3d3d;
+  text-decoration: underline;
+}
+
+.footerIcon {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.footTextMe {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
